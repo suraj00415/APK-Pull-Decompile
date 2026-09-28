@@ -1,0 +1,14 @@
+{
+  "name": "apk-pull-decompile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pull or download Android APKs and decompile them with JADX",
+  "main": "apk-pull-decompile.js",
+  "scripts": {
+    "start": "node apk-pull-decompile.js",
+    "discover:playstore": "node playstore-developer-scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

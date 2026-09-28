@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# APKs, split APKs, and decompiled output
+*.apk
+*.apks
+*.aab
+*.xapk
+apk-pull/
+apks/
+decompiled/
+decompiled-apks/
+
+# Generated reports and Play Store discovery artifacts
+playstore-audit/
+reports/
+*.jsonl
+*.log
+*.png
+
+# Local command snippets may contain credentials or access tokens
+commands.txt
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Tool and OS files
+.jadx/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
