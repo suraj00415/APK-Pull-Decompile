@@ -12,7 +12,6 @@ decompiled/
 decompiled-apks/
 
 # Generated reports and Play Store discovery artifacts
-playstore-audit/
 reports/
 *.jsonl
 *.log
@@ -25,6 +24,11 @@ commands.txt
 .env
 .env.*
 !.env.example
+/playstore-monitor/data/
+/config.json
+/data/
+/apks/
+/decompiled/
 *.pem
 *.key
 *.p12

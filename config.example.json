@@ -1,0 +1,51 @@
+{
+  "targets": {
+    "developers": [
+      {
+        "id": "123456789101112",
+        "name": "Test App",
+        "includePackages": [],
+        "excludePackages": []
+      }
+    ],
+    "packages": [],
+    "excludePackages": []
+  },
+  "paths": {
+    "data": "./data",
+    "apks": "./apks",
+    "decompiled": "./decompiled"
+  },
+  "monitor": {
+    "language": "en",
+    "country": "in",
+    "detailsConcurrency": 2,
+    "requestDelayMs": 500,
+    "slackWebhook": {
+      "env": "SLACK_WEBHOOK_URL"
+    }
+  },
+  "pull": {
+    "source": "playstore",
+    "apkeep": "apkeep",
+    "adb": "adb",
+    "device": null,
+    "email": {
+      "env": "PLAY_STORE_EMAIL"
+    },
+    "aasToken": {
+      "env": "PLAY_STORE_AAS_TOKEN"
+    },
+    "splitApk": true,
+    "retries": 2,
+    "downloadParallel": 1
+  },
+  "decompile": {
+    "jadx": "jadx",
+    "fast": false,
+    "jobs": 2
+  },
+  "pipeline": {
+    "selection": "changed"
+  }
+}
